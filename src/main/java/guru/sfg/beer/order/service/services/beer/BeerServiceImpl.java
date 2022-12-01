@@ -20,7 +20,7 @@ public class BeerServiceImpl implements BeerService {
 
     private final RestTemplate restTemplate;
     private static final String BEER_BY_ID_PATH = "/api/v1/beer/{beerId}";
-    private static final String BEER_BY_UPC_PATH = "/api/v1/beer/byUpc/{upc}";
+    private static final String BEER_BY_UPC_PATH = "/api/v1/beerUpc/{upc}";
     private String beerServiceHost;
 
     public BeerServiceImpl(RestTemplateBuilder restTemplateBuilder) {
